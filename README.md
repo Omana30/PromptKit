@@ -1,4 +1,4 @@
-# PromptKit 🧠
+# PromptKit
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
@@ -11,9 +11,9 @@
 
 ## Why this exists
 
-While building clinical AI tools and financial NLP pipelines, I kept rewriting the same prompt patterns from scratch — extraction chains, structured output formatters, RAG query templates. Every project. Every time.
+While building clinical AI tools and financial NLP pipelines, I kept rewriting the same prompt patterns from scratch  extraction chains, structured output formatters, RAG query templates. Every project. Every time.
 
-PromptKit is my answer to that. A single, well-documented library of prompt templates I've tested across real projects — so I (and anyone else) can stop reinventing the wheel and start building faster.
+PromptKit is my answer to that. A single, well-documented library of prompt templates I've tested across real projects so I (and anyone else) can stop reinventing the wheel and start building faster.
 
 These aren't theoretical prompts. Every template here has been used in production or research contexts, refined through iteration, and documented with real examples.
 
@@ -96,7 +96,7 @@ Three rules every template in this library follows:
 
 **2. Validate, don't trust.** Where output format matters, templates include a `validate_output()` helper that checks structure before your code uses it.
 
-**3. Model-agnostic.** Every template works with OpenAI and Anthropic APIs. The prompt logic doesn't change — only the client call.
+**3. Model-agnostic.** Every template works with OpenAI and Anthropic APIs. The prompt logic doesn't change only the client call.
 
 ---
 
@@ -136,7 +136,7 @@ Found a pattern that works really well? Open a PR. Every template should include
 
 ## License
 
-MIT — use freely, build something great.
+MIT, use freely, build something great.
 
 ---
 
